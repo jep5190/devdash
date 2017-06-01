@@ -1,0 +1,40 @@
+# https://www.appveyor.com/docs/appveyor-yml/
+#---------------------------------#
+#      general configuration      #
+#---------------------------------#
+
+# version format
+version: '0.0.{build}'          
+
+#---------------------------------#
+#    environment configuration    #
+#---------------------------------#
+
+
+#---------------------------------#
+#       build configuration       #
+#---------------------------------#
+# build platform, i.e. x86, x64, Any CPU. This setting is optional.
+platform: Any CPU
+
+# build Configuration, i.e. Debug, Release, etc.
+configuration: Debug
+
+
+build:
+  # enable MSBuild parallel builds
+  parallel: true   
+  # path to Visual Studio solution or project               
+  project: DevDash.sln            
+
+#---------------------------------#
+#       tests configuration       #
+#---------------------------------#
+
+#---------------------------------#
+#      artifacts configuration    #
+#---------------------------------#
+
+#---------------------------------#
+#     deployment configuration    #
+#---------------------------------#

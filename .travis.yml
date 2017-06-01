@@ -1,9 +1,0 @@
-language: csharp
-solution: DevDash.sln
-mono: none
-dotnet: 1.0.1
-dist: trusty
-before_script: 
-  - chmod +x ./Automation/Workflow/Build.sh
-script:
-  - ./Automation/Workflow/Build.sh --quiet verify
