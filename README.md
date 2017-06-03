@@ -1,4 +1,3 @@
-[![Build Status](https://travis-ci.org/ynauls/devdash.svg?branch=master)](https://travis-ci.org/ynauls/devdash)
 [![Build status](https://ci.appveyor.com/api/projects/status/2f1o6mx2i3cus4ir/branch/master?svg=true)](https://ci.appveyor.com/project/ynauls/devdash/branch/master)
 
 ## Welcome to Development Dashboard
