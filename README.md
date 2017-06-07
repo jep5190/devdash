@@ -4,12 +4,13 @@
 
 Currently, this project is labeled as a **fun** project, its main purpose is to learn different technologies...... 
 
-However, the vision is to create a dashboard primarily for developers and configuration managers to view information of its environments. Currently, to gather environment information, a developer or a configuration manager needs access to the following:
+However, the vision is to create a dashboard primarily for developers and configuration managers to view information of its environments. Currently, to gather environment information, a developer or a configuration manager needs access multiple systems, such as:
 - Continuous Integration Dashboard (Builds and Deployments)
 - Cloud Dashboard (view instances state i.e. EC2 state)
 - Repository Dashboard (view repository/branch state)
+- others...
 
-In most cases, not all developers have access to the dashboards above, in addition, there is no way to associate/label/tag across all the dashboards. This dashboard will allow users to see the association between branches, configuration builds and its associated instances.
+In most cases, not all developers have access to the dashboards, in addition, there is no way to associate/label/tag systems, builds, repositories across all the disconected dashboards. This dashboard will allow users to see the association between branches, configuration builds, and its associated deployed instances.
 
 ## Resources for GitHub Pages
 
